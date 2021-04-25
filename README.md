@@ -1,7 +1,7 @@
 # useful-stuff
 Collection of stuff useful for a programmer
 
-`Right click and copy link from the gifs below
+`Right click and copy link from the gifs below`
 
 <p>
 <img src="https://raw.githubusercontent.com/swapnilg4u/useful-resources/main/GIFs/python.gif" height="70">
