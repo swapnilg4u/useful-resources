@@ -3,10 +3,10 @@ Collection of stuff useful for a programmer
 
 
 Useful Websites
-<p>
-[mutaz.net](https://www.mutaz.net)
-[free-for.dev](https://free-for.dev/)
+
+1. [mutaz.net](https://www.mutaz.net)
+2. [free-for.dev](https://free-for.dev/)
 
 
 
-</p>
+
