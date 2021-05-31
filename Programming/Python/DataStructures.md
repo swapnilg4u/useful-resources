@@ -3,7 +3,7 @@
 ### Linked Lists
 
 ```
-# A simple Python program for traversal of a linked list
+# Basic Linked List Operations - Initialize, Add(front,back,inbetween), Delete, Print
 
 # Node class
 class Node:
