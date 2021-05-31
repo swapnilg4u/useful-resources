@@ -3,7 +3,7 @@
 ## Linked Lists
 
 ```
-# Basic Linked List Operations - Initialize, Add(front,back,inbetween), Delete, Print
+# Basic Linked List Operations - Initialize, Add(front,back,inbetween), Delete, Print, Reverse
 
 # Node class
 class Node:
