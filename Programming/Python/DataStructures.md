@@ -1,6 +1,6 @@
 # All Data Structures at one place
 
-### Linked Lists
+## Linked Lists
 
 ```
 # Basic Linked List Operations - Initialize, Add(front,back,inbetween), Delete, Print
