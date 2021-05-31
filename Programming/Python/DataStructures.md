@@ -81,6 +81,21 @@ class LinkedList:
 
 		# 6. Change the next of last node
 		last.next = new_node
+		
+# Deletes a given node
+	def delete(self,new_data):
+        	temp = self.head
+        	if temp.data == new_data:
+        	    self.head = temp.next
+        	    temp = None
+        	    return
+
+        	while temp:
+        	    if temp.data == new_data:
+        	        break
+        	    prev = temp
+        	    temp = temp.next
+        	prev.next = temp.next
 
 
 # Code execution starts here
@@ -103,6 +118,8 @@ if __name__=='__main__':
 
 	# Insert 8, after 7. So linked list becomes 1 -> 7-> 8-> 6-> 4-> None
     llist.insertAfter(llist.head.next, 8)
+    
+    	# Delete 6. So linked list becomes 1 -> 7-> 8-> 4-> None
 
     print('Created linked list is:')
     llist.printList()
