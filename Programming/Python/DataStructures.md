@@ -42,9 +42,7 @@ class LinkedList:
 		self.head = new_node
 
 
-	# This function is in LinkedList class. Inserts a
-	# new node after the given prev_node. This method is
-	# defined inside LinkedList class shown above */
+	# Inserts a new node after the given prev_node.
 	def insertAfter(self, prev_node, new_data):
 
 		# 1. check if the given prev_node exists
@@ -62,10 +60,7 @@ class LinkedList:
 		# 5. make next of prev_node as new_node
 		prev_node.next = new_node
 
-
-	# This function is defined in Linked List class
-	# Appends a new node at the end. This method is
-	# defined inside LinkedList class shown above */
+	# Appends a new node at the end.
 	def append(self, new_data):
 
 		# 1. Create a new node
@@ -86,15 +81,6 @@ class LinkedList:
 
 		# 6. Change the next of last node
 		last.next = new_node
-
-
-	# Utility function to print the linked list
-	def printList(self):
-		temp = self.head
-		while (temp):
-			print(temp.data)
-			temp = temp.next
-
 
 
 # Code execution starts here
