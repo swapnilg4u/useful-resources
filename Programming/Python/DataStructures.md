@@ -8,7 +8,7 @@
 # Node class
 class Node:
 
-	# Function to initialise the node object
+# Function to initialise the node object
 	def __init__(self, data):
 		self.data = data # Assign data
 		self.next = None # Initialize next as null
@@ -17,18 +17,18 @@ class Node:
 # Linked List class contains a Node object
 class LinkedList:
 
-	# Function to initialize head
+# Function to initialize head
 	def __init__(self):
 		self.head = None
 
-	# This function prints contents of linked list starting from head
+# This function prints contents of linked list starting from head
 	def printList(self):
 		temp = self.head
 		while (temp):
 			print (temp.data)
 			temp = temp.next
 
-	# Functio to insert a new node at the beginning
+# Function to insert a new node at the beginning
 	def push(self, new_data):
 
 		# 1 & 2: Allocate the Node &
@@ -42,7 +42,7 @@ class LinkedList:
 		self.head = new_node
 
 
-	# Inserts a new node after the given prev_node.
+# Inserts a new node after the given prev_node.
 	def insertAfter(self, prev_node, new_data):
 
 		# 1. check if the given prev_node exists
@@ -60,7 +60,7 @@ class LinkedList:
 		# 5. make next of prev_node as new_node
 		prev_node.next = new_node
 
-	# Appends a new node at the end.
+# Appends a new node at the end.
 	def append(self, new_data):
 
 		# 1. Create a new node
