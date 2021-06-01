@@ -1,8 +1,8 @@
 # All Data Structures at one place
-1. Linked Lists (#linked-list)
+1. [Linked Lists](https://github.com/swapnilg4u/useful-resources/blob/main/Programming/Python/DataStructures.md#linked-lists)
 2. Doubly Linked Lists (#doubly-linked-list)
 
-## Linked Lists<a id=linked-list />
+## Linked Lists
 
 ```
 # Basic Linked List Operations - Initialize, Add(front,back,inbetween), Delete, Print, Reverse
