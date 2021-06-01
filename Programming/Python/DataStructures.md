@@ -1,6 +1,8 @@
 # All Data Structures at one place
+1. Linked Lists (#linked-list)
+2. Doubly Linked Lists (#doubly-linked-list)
 
-## Linked Lists
+## Linked Lists<a id=linked-list />
 
 ```
 # Basic Linked List Operations - Initialize, Add(front,back,inbetween), Delete, Print, Reverse
@@ -146,7 +148,7 @@ if __name__ == '__main__':
 
 ```
 
-## Doubly Linked Lists
+## Doubly Linked Lists <a id=doubly-linked-list />
 ```
 # A complete working Python program to demonstrate all insertion methods
 
