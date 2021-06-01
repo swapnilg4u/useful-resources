@@ -1,6 +1,6 @@
 # All Data Structures at one place
 1. [Linked Lists](https://github.com/swapnilg4u/useful-resources/blob/main/Programming/Python/DataStructures.md#linked-lists)
-2. Doubly Linked Lists (#doubly-linked-list)
+2. [Doubly Linked Lists](https://github.com/swapnilg4u/useful-resources/blob/main/Programming/Python/DataStructures.md#doubly-linked-lists-)
 
 ## Linked Lists
 
