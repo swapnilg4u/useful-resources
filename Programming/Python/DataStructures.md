@@ -84,62 +84,62 @@ class LinkedList:
 		
 # Deletes a given node
 	def delete(self,new_data):
-        	temp = self.head
-        	if temp.data == new_data:
-        	    self.head = temp.next
-        	    temp = None
-        	    return
+        temp = self.head
+        if temp.data == new_data:
+            self.head = temp.next
+            temp = None
+            return
 
-        	while temp:
-        	    if temp.data == new_data:
-        	        break
-        	    prev = temp
-        	    temp = temp.next
-        	prev.next = temp.next
+        while temp:
+            if temp.data == new_data:
+                break
+            prev = temp
+            temp = temp.next
+        prev.next = temp.next
 		
 # Reverse the Linked List
 	def reverse(self):
-        	print('Original linked list: ',end=' ')
-        	link_list.printit()
+        print('Original linked list: ',end=' ')
+        link_list.printit()
         
-       	 	current = self.head
-        	prev = None
-        	print('Reversed linked list: ',end=' ')
-        	while current:
-        	    next_node= current.next
-        	    current.next = prev
-        	    prev = current
-        	    current = next_node
-        	self.head = prev
+       	current = self.head
+        prev = None
+        print('Reversed linked list: ',end=' ')
+        while current:
+            next_node= current.next
+            current.next = prev
+            prev = current
+            current = next_node
+        self.head = prev
 
 
 # Code execution starts here
 if __name__=='__main__':
 
 	# Start with the empty list
-    	llist = LinkedList()
+    llist = LinkedList()
 
 	# Insert 6. So linked list becomes 6->None
-    	llist.append(6)
+    llist.append(6)
 
 	# Insert 7 at the beginning. So linked list becomes 7->6->None
-    	llist.push(7)
+    llist.push(7)
 
 	# Insert 1 at the beginning. So linked list becomes 1->7->6->None
-    	llist.push(1)
+    llist.push(1)
 
 	# Insert 4 at the end. So linked list becomes 1->7->6->4->None
-    	llist.append(4)
+    llist.append(4)
 
 	# Insert 8, after 7. So linked list becomes 1 -> 7-> 8-> 6-> 4-> None
    	llist.insertAfter(llist.head.next, 8)
     
-    	# Delete 6. So linked list becomes 1 -> 7-> 8-> 4-> None
+    # Delete 6. So linked list becomes 1 -> 7-> 8-> 4-> None
 	llist.delete(6)
 	
 	# Reverse the Linked List
 	llist.reverse()
 	
-    	print('Created linked list is:')
-    	llist.printList()
+    print('Created linked list is:')
+    llist.printList()
 ```
