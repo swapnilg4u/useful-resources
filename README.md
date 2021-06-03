@@ -14,4 +14,4 @@ Youtube Channels
 1. [mycodeschool](https://www.youtube.com/user/mycodeschool) - Data structures and Algorithms (Check playlists!)
 
 
-https://telegra.ph/file/052e8e1dfb55d0dbfba14.png
+<img src='https://telegra.ph/file/052e8e1dfb55d0dbfba14.png' />
