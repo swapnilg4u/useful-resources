@@ -4,8 +4,9 @@ Collection of stuff useful for a programmer
 
 Useful Websites
 
-1. [mutaz.net](https://www.mutaz.net)
-2. [free-for.dev](https://free-for.dev/)
+1. [quillbot.com](https://quillbot.com) - The Best Paraphrasing Tool
+2. [mutaz.net](https://www.mutaz.net) - Collection of Free programs
+3. [free-for.dev](https://free-for.dev/)
 
 
 
