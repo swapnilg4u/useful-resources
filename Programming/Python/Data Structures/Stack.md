@@ -46,7 +46,12 @@ We can implement stack using
 2. [Linked Lists](#llists)
 
 ### ARRAY IMPLEMENTATION OF STACK <a id="arrays" />
+ufiskbcjsdc
 
 ### LINKED LIST IMPLEMENTATION OF STACK <a id="llists" />
+uskcjsc
+vd
+vdv
 
 ### Reverse a String or Linked List using STACK
+efcsbcjksdc
