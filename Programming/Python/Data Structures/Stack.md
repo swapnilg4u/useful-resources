@@ -9,7 +9,7 @@ A Stack is also called Last-In-First-Out (LIFO)
 | Sr. No. | Operation | Time Complexity |
 | --- | --- | --- |
 |1. | Push(x) |   |
-|2. | Pop() |   |
-|3. | Top() |   |
-|4. | Isempty() |   |
-| Hello  |
+|2. | Pop() |^^   |
+|3. | Top() |^^   |
+|4. | Isempty() |^^   |
+| |
