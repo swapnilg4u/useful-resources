@@ -1,11 +1,12 @@
 # Stack
+###### Topics Covered:- [Definition](#D), [Operations](#O), [Applications](#A), [Implementation](#I)
 
-A Stack is also called Last-In-First-Out (LIFO)
+A Stack is also called Last-In-First-Out (LIFO) <a id="D" />
 
 ## Stack as an ADT
 > A list with restrictions that insertion and deletion can be performed only from one end, called the top.
 
-## Operations
+## Operations <a id="O" />
 
 <table>
   <thead>
@@ -36,12 +37,12 @@ A Stack is also called Last-In-First-Out (LIFO)
   </tbody>
 </table>
 
-Some Applications:-
+Some Applications:- <a id="A" />
 1. Execution of function calls / Recursion
 2. Undo operation of an editor
 3. Balancing Brackets in compilers
 
-We can implement stack using
+We can implement stack using <a id="I" />
 1. [Arrays](#arrays)
 2. [Linked Lists](#llists)
 3. [Inbuilt Python Modules](#modules)
