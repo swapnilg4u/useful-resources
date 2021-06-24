@@ -15,41 +15,36 @@ A Stack is also called Last-In-First-Out (LIFO)
 | |
 
 <table>
-<thead>
-<tr>
-<th>Stage</th>
-<th align="right">Direct Products</th>
-<th align="right">ATP Yields</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="right" rowspan="2">Glycolysis</td>
-<td align="right" colspan="2">2 ATP</td>
-</tr>
-<tr>
-<td align="right">2 NADH</td>
-<td align="right">3–5 ATP</td>
-</tr>
-<tr>
-<td align="right">Pyruvaye oxidation</td>
-<td align="right">2 NADH</td>
-<td align="right">5 ATP</td>
-</tr>
-<tr>
-<td align="right" rowspan="3">Citric acid cycle</td>
-<td align="right" colspan="2">2 ATP</td>
-</tr>
-<tr>
-<td align="right">6 NADH</td>
-<td align="right">15 ATP</td>
-</tr>
-<tr>
-<td align="right">2 FADH2</td>
-<td align="right">3 ATP</td>
-</tr>
-<tr>
-<td align="right" colspan="3">30–32 ATP</td>
-</tr>
-</tbody>
+  <thead>
+    <tr>
+      <th>Sr. No.</th>
+      <th>Operation</th>
+      <th>Time Complexity</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1.</td>
+      <td>Push(x)</td>
+      <td>\</td>
+    </tr>
+    <tr>
+      <td>2.</td>
+      <td>Pop()</td>
+      <td>^^   \</td>
+    </tr>
+    <tr>
+      <td>3.</td>
+      <td>Top()</td>
+      <td>^^   \</td>
+    </tr>
+    <tr>
+      <td>4.</td>
+      <td>Isempty()</td>
+      <td>^^</td>
+    </tr>
+    <tr>
+      <td></td>
+    </tr>
+  </tbody>
 </table>
