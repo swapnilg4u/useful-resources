@@ -2,7 +2,7 @@
 
 A Stack is also called Last-In-First-Out (LIFO)
 
-> #### Stack as an ADT
+#### Stack as an ADT
 > A list with restrictions that insertion and deletion can be performed only from one end, called the top.
 
 #### Operations
