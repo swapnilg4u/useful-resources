@@ -44,8 +44,9 @@ Some Applications:-
 We can implement stack using
 1. [Arrays](#arrays)
 2. [Linked Lists](#llists)
+3. [Inbuilt Python Modules](#modules)
 
-## ARRAY IMPLEMENTATION OF STACK (LISTS)<a id="arrays" />
+## ARRAY IMPLEMENTATION OF STACK (LISTS) <a id="arrays" />
 ```
 stack = []
 
@@ -135,7 +136,7 @@ if __name__ == "__main__":
    print(f"Stack: {stack}")
 ```
 
-## SOME PYTHON INBUILT MODULES FOR STACK
+## SOME PYTHON INBUILT MODULES FOR STACK <a id="modules" />
 ### Using deque from collections
 ```
 from collections import deque
