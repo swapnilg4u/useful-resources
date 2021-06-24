@@ -55,3 +55,5 @@ vdv
 
 ## Reverse a String or Linked List using STACK
 efcsbcjksdc
+
+## Check for balanced paranthesis using Stack
