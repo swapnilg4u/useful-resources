@@ -12,4 +12,4 @@ A Stack is also called Last-In-First-Out (LIFO)
 |2. | Pop() |   |
 |3. | Top() |   |
 |4. | Isempty() |   |
-|^^ Hello |  |  |
+|^^ Hello  |
