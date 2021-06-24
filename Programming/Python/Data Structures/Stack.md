@@ -19,7 +19,7 @@ A Stack is also called Last-In-First-Out (LIFO)
     <tr>
       <td>1.</td>
       <td>Push(x)</td>
-      <td rowspan='2'>\</td>
+      <td rowspan='4'>Constant Time O(1)</td>
     </tr>
     <tr>
       <td>2.</td>
