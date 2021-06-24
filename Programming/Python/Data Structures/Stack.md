@@ -42,11 +42,11 @@ Some Applications:-
 3. Balancing Brackets in compilers
 
 We can implement stack using
-1. Arrays
-2. Linked Lists
+1. [Arrays](#arrays)
+2. [Linked Lists](#llists)
 
-### ARRAY IMPLEMENTATION OF STACK
+### ARRAY IMPLEMENTATION OF STACK <a id="arrays" />
 
-### LINKED LIST IMPLEMENTATION OF STACK
+### LINKED LIST IMPLEMENTATION OF STACK <a id="llists" />
 
 ### Reverse a String or Linked List using STACK
