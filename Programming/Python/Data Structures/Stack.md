@@ -12,3 +12,7 @@ A list with restrictions that insertion and deletion can be performed only from 
 |2. | Pop() |   |
 |3. | Top() |   |
 |4. | Isempty() |   |
+
+| abc | defghi |
+:-: | -----------:
+bar | baz
