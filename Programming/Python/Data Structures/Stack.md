@@ -201,9 +201,187 @@ print("\nEmpty: ", stack.empty())
 
 
 ## Reverse a String or Linked List using STACK
-efcsbcjksdc
+### String -
+```
+# Python program to reverse a string using stack
 
+# Function to create an empty stack.
+# It initializes size of stack as 0
+def createStack():
+	stack=[]
+	return stack
+
+# Function to determine the size of the stack
+def size(stack):
+	return len(stack)
+
+# Stack is empty if the size is 0
+def isEmpty(stack):
+	if size(stack) == 0:
+		return true
+
+# Function to add an item to stack .
+# It increases size by 1
+def push(stack,item):
+	stack.append(item)
+
+#Function to remove an item from stack.
+# It decreases size by 1
+def pop(stack):
+	if isEmpty(stack): return
+	return stack.pop()
+
+# A stack based function to reverse a string
+def reverse(string):
+	n = len(string)
+	
+	# Create a empty stack
+	stack = createStack()
+
+	# Push all characters of string to stack
+	for i in range(0,n,1):
+		push(stack,string[i])
+
+	# Making the string empty since all
+	#characters are saved in stack
+	string=""
+
+	# Pop all characters of string and
+	# put them back to string
+	for i in range(0,n,1):
+		string+=pop(stack)
+		
+	return string
+	
+# Driver program to test above functions
+string="GeeksQuiz"
+string = reverse(string)
+print("Reversed string is " + string)
+
+```
+### Linked Lists
+```
+# Python3 program to reverse a linked
+# list using stack
+
+# Link list node
+class Node:
+	
+	def __init__(self, data, next):
+		self.data = data
+		self.next = next
+
+class LinkedList:
+	
+	def __init__(self):
+		self.head = None
+		
+	# Function to push a new Node in
+	# the linked list
+	def push(self, new_data):
+	
+		new_node = Node(new_data, self.head)
+		self.head = new_node
+	
+	# Function to reverse linked list
+	def reverseList(self):
+	
+		# Stack to store elements of list
+		stk = []
+	
+		# Push the elements of list to stack
+		ptr = self.head
+		while ptr.next != None:
+			stk.append(ptr)
+			ptr = ptr.next
+	
+		# Pop from stack and replace
+		# current nodes value'
+		self.head = ptr
+		while len(stk) != 0:
+			ptr.next = stk.pop()
+			ptr = ptr.next
+		
+		ptr.next = None
+	
+	# Function to print the Linked list
+	def printList(self):
+		
+		curr = self.head
+		while curr:
+			print(curr.data, end = " ")
+			curr = curr.next
+
+# Driver Code
+if __name__ == "__main__":
+
+	# Start with the empty list
+	linkedList = LinkedList()
+
+	# Use push() to construct below list
+	# 1.2.3.4.5
+	linkedList.push(5)
+	linkedList.push(4)
+	linkedList.push(3)
+	linkedList.push(2)
+	linkedList.push(1)
+
+	linkedList.reverseList()
+
+	linkedList.printList()
+```
 ## Check for balanced paranthesis using Stack
+```
+# Python3 program to check for
+# balanced brackets.
 
+# function to check if
+# brackets are balanced
+
+
+def areBracketsBalanced(expr):
+	stack = []
+
+	# Traversing the Expression
+	for char in expr:
+		if char in ["(", "{", "["]:
+
+			# Push the element in the stack
+			stack.append(char)
+		else:
+
+			# IF current character is not opening
+			# bracket, then it must be closing.
+			# So stack cannot be empty at this point.
+			if not stack:
+				return False
+			current_char = stack.pop()
+			if current_char == '(':
+				if char != ")":
+					return False
+			if current_char == '{':
+				if char != "}":
+					return False
+			if current_char == '[':
+				if char != "]":
+					return False
+
+	# Check Empty Stack
+	if stack:
+		return False
+	return True
+
+
+# Driver Code
+if __name__ == "__main__":
+	expr = "{()}[]"
+
+	# Function call
+	if areBracketsBalanced(expr):
+		print("Balanced")
+	else:
+		print("Not Balanced")
+
+```
 
 ###### Note: Code referenced from GeeksforGeeks
