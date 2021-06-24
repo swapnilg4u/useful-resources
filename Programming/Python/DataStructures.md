@@ -1,8 +1,15 @@
 # All Data Structures at one place
+1. [Lists]()
+2. [Linked Lists](#2)
+3. [Stack]()
+4. [Queue]()
+
+
+## Linked Lists <a id=2 />
 1. [Linked Lists](https://github.com/swapnilg4u/useful-resources/blob/main/Programming/Python/DataStructures.md#linked-lists)
 2. [Doubly Linked Lists](https://github.com/swapnilg4u/useful-resources/blob/main/Programming/Python/DataStructures.md#doubly-linked-lists-)
 
-## Linked Lists
+### Linked Lists
 
 ```
 # Basic Linked List Operations - Initialize, Add(front,back,inbetween), Delete, Print, Reverse
