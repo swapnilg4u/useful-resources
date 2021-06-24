@@ -14,12 +14,42 @@ A Stack is also called Last-In-First-Out (LIFO)
 |4. | Isempty() |^^   |
 | |
 
-| :        Fruits \|\| Food       : |||
-| :--------- | :-------- | :--------  |
-| Apple      | : Apple : | Apple      \
-| Banana     |   Banana  | Banana     \
-| Orange     |   Orange  | Orange     |
-| :   Rowspan is 4    : || How's it?  |
-|^^    A. Peach         ||   1. Fine :|
-|^^    B. Orange        ||^^ 2. Bad   |
-|^^    C. Banana        ||  It's OK!  |
+<table>
+<thead>
+<tr>
+<th>Stage</th>
+<th align="right">Direct Products</th>
+<th align="right">ATP Yields</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right" rowspan="2">Glycolysis</td>
+<td align="right" colspan="2">2 ATP</td>
+</tr>
+<tr>
+<td align="right">2 NADH</td>
+<td align="right">3–5 ATP</td>
+</tr>
+<tr>
+<td align="right">Pyruvaye oxidation</td>
+<td align="right">2 NADH</td>
+<td align="right">5 ATP</td>
+</tr>
+<tr>
+<td align="right" rowspan="3">Citric acid cycle</td>
+<td align="right" colspan="2">2 ATP</td>
+</tr>
+<tr>
+<td align="right">6 NADH</td>
+<td align="right">15 ATP</td>
+</tr>
+<tr>
+<td align="right">2 FADH2</td>
+<td align="right">3 ATP</td>
+</tr>
+<tr>
+<td align="right" colspan="3">30–32 ATP</td>
+</tr>
+</tbody>
+</table>
