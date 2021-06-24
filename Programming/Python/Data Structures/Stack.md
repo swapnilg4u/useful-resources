@@ -2,10 +2,10 @@
 
 A Stack is also called Last-In-First-Out (LIFO)
 
-### Stack as an ADT
+## Stack as an ADT
 > A list with restrictions that insertion and deletion can be performed only from one end, called the top.
 
-### Operations
+## Operations
 
 <table>
   <thead>
@@ -45,13 +45,13 @@ We can implement stack using
 1. [Arrays](#arrays)
 2. [Linked Lists](#llists)
 
-### ARRAY IMPLEMENTATION OF STACK <a id="arrays" />
+## ARRAY IMPLEMENTATION OF STACK <a id="arrays" />
 ufiskbcjsdc
 
-### LINKED LIST IMPLEMENTATION OF STACK <a id="llists" />
+## LINKED LIST IMPLEMENTATION OF STACK <a id="llists" />
 uskcjsc
 vd
 vdv
 
-### Reverse a String or Linked List using STACK
+## Reverse a String or Linked List using STACK
 efcsbcjksdc
