@@ -1,9 +1,10 @@
 # Stack
 ###### Topics Covered:- [Definition](#D), [Operations](#O), [Applications](#A), [Implementation](#I)
 
-A Stack is also called Last-In-First-Out (LIFO) <a id="D" />
+## Definition <a id="D" />
+A stack is a linear data structure that stores items in a Last-In/First-Out (LIFO) or First-In/Last-Out (FILO) manner. In stack, a new element is added at one end and an element is removed from that end only. The insert and delete operations are often called push and pop. 
 
-## Stack as an ADT
+### Stack as an ADT
 > A list with restrictions that insertion and deletion can be performed only from one end, called the top.
 
 ## Operations <a id="O" />
