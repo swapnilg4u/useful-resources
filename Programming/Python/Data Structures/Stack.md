@@ -7,8 +7,8 @@ A list with restrictions that insertion and deletion can be performed only from 
 
 #### Operations
 | Sr. No. | Operation | Time Complexity |
-| --- | --- |
-1. | Push(x) |   |
-2. | Pop() |   |
-3. | Top() |   |
-4. | Isempty() |   |
+| --- | --- | --- |
+|1. | Push(x) |   |
+|2. | Pop() |   |
+|3. | Top() |   |
+|4. | Isempty() |   |
