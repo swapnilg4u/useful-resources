@@ -1,11 +1,12 @@
 # All Data Structures at one place
-1. [Lists]()
+1. [Lists](#1)
 2. [Linked Lists](#2)
-3. [Stack]()
-4. [Queue]()
+3. [Stack](#3)
+4. [Queue](#4)
 
+## LISTS <a id=1 />
 
-## Linked Lists <a id=2 />
+## LINKED LISTS <a id=2 />
 1. [Linked Lists](https://github.com/swapnilg4u/useful-resources/blob/main/Programming/Python/DataStructures.md#linked-lists)
 2. [Doubly Linked Lists](https://github.com/swapnilg4u/useful-resources/blob/main/Programming/Python/DataStructures.md#doubly-linked-lists-)
 
@@ -284,3 +285,7 @@ llist.insertAfter(llist.head.next, 8)
 print("Created DLL is: ")
 llist.printList(llist.head)
 ```
+
+## STACK <a id=3 />
+
+## QUEUE <a id=4 />
